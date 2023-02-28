@@ -9,7 +9,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 setTimeout(function () {
   function AdaBundleGoogleTranslateElementInit(lang) {
     lang = lang || "fr";
-    new google.translate.TranslateElement(
+    new window.google.translate.TranslateElement(
       { pageLanguage: "en" },
       "adabundle-translate-element"
     );
